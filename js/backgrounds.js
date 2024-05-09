@@ -8,6 +8,6 @@ const images = [
 const chosenImg = images[Math.floor(Math.random() * images.length)];
 
 const bgImg = document.createElement("img");
-bgImg.src = `./img/${chosenImg}`;
+bgImg.src = `../img/${chosenImg}`;
 bgImg.classList.add("bg", "gradient");
 document.body.appendChild(bgImg);
