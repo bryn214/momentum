@@ -1,0 +1,37 @@
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.name-input {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.name-input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+  
+.name-input:focus,
+.name-input:active {
+    outline: none;
+}
+  
+.name-text {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+  
+#login-form, #greeting {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+  

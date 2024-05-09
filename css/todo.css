@@ -1,0 +1,21 @@
+.list {
+    margin-bottom: 20px;
+}
+  
+.todo {
+    font-size: 22px;
+}
+
+#todo-question {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.todo-button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.todo-input {
+    text-align: center;
+}
