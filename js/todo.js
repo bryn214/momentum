@@ -56,5 +56,4 @@ if(savedTodos !== null) {
     const parsedTodos = JSON.parse(savedTodos);
     toDos = parsedTodos;
     parsedTodos.forEach(paintTodo);
-    console.log(parsedTodos);
 }
